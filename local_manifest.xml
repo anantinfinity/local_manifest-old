@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+ <!-- Remotes -->
+ <remote name="anant" 
+         fetch="https://github.com/anantinfinity" />
+ <remote name="sajidshahriar72543" 
+         fetch="https://github.com/sajidshahriar72543" />
+ <remote name="PainKiller3" 
+         fetch="https://github.com/PainKiller3" />
+ <remote name="resist15" 
+         fetch="https://github.com/resist15" />
+<remote name="ArrowOS-Devices" 
+         fetch="https://github.com/ArrowOS-Devices" />
+
+ <!-- Trees -->
+  
+ <!-- Device Tree -->
+ <project path="device/xiaomi/beryllium" 
+          name="device_xiaomi_beryllium.git" 
+          remote="anant" 
+          revision="13" />
+ <!-- Common Tree -->
+ <project path="device/xiaomi/sdm845-common" 
+          name="device_xiaomi_sdm845-common.git" 
+          remote="anant" 
+          revision="13" />
+ <!-- Vendor Tree -->
+ <project path="vendor/xiaomi" 
+          name="vendor_xiaomi.git" 
+          remote="anant"
+          revision="13" />
+ <!-- Kernel Tree -->
+ <project path="kernel/xiaomi/sdm845" 
+          name="kernel_xiaomi_sdm845.git" 
+          remote="PainKiller3" 
+          revision="twelve" />
+
+
+
+<project path="hardware/xiaomi" 
+          name="android_hardware_xiaomi.git" 
+          remote="ArrowOS-Devices"
+          revision="arrow-13.0" />
